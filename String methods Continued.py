@@ -57,6 +57,11 @@
 
 # print(len(string1))
 
-string1 = "Firetrucks are red"
+# string1 = "Firetrucks are red"
 
-print(string1.find("t"))
+# print(string1.find("t"))
+
+
+coffe = "I love coding! "
+
+print(coffe.strip())
