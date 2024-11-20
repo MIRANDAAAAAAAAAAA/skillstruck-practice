@@ -73,21 +73,42 @@
 
 # CHECKPOINTS:
 
-# total = population / bikes
-# print(total)
+# people = int(input("Enter the number of people in the town: "))
+# bikes = int(input("Enter the number of bikes in the town: "))
+
+
+# if bikes > 0:  
+#     people_per_bike = math.ceil(people / bikes) 
+#     print(f"In this town, for every bike that exists there are {people_per_bike} people.")
+# else:
+#     print("There are no bikes in the town.")
+#     print(people_per_bike)
+
+
+# import math
+# x = pow(
+# print(pow(27, 3))
 
 
 
-# from math import ceil
+
+# import math
 
 
-people = int(input("Enter the number of people in the town: "))
-bikes = int(input("Enter the number of bikes in the town: "))
+# side_length = float(input("Enter the length of one side of the cube: "))
 
 
-if bikes > 0:  
-    people_per_bike = ceil(people / bikes) 
-    print("In this town, for every bike that exists there are {people_per_bike} people.")
-else:
-    print("There are no bikes in the town.")
-    print(people_per_bike)
+# volume = pow(side_length, 3)
+
+# print(f"The volume of the cube is: {volume}")
+
+
+import math
+
+side_length = int(input("Enter the length of one side of the cube: "))
+
+
+volume = pow(side_length, 3)
+
+
+print(volume)
