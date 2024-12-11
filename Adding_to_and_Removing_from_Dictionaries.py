@@ -1,81 +1,81 @@
-# ADDING ITEMS
-# ->
-# cute = {
-#     "minghao": 8,
-#     "vance": 15,
-#     "alice": 13
-# }
+ADDING ITEMS
+->
+cute = {
+    "minghao": 8,
+    "vance": 15,
+    "alice": 13
+}
 
-# cute["jun"] = 8
+cute["jun"] = 8
 
-# print(cute)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Keep in mind that you can also create an empty dictionary and add items to that as well.
-# cute = {
-#      "minghao": 8,
-#     "vance": 15,
-#     "alice": 13
-# }
+print(cute)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Keep in mind that you can also create an empty dictionary and add items to that as well.
+cute = {
+     "minghao": 8,
+    "vance": 15,
+    "alice": 13
+}
 
-# print(cute)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# REMOVING ITEMS
-# ->
-# cute = {
-#     "minghao": 8,
-#     "vance": 15,
-#     "alice": 13
-# }
+print(cute)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+REMOVING ITEMS
+->
+cute = {
+    "minghao": 8,
+    "vance": 15,
+    "alice": 13
+}
 
-# print(cute)
+print(cute)
 
-# cute.pop("vance")
+cute.pop("vance")
 
-# print(cute)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# CHECKPOINT
-# ->
-# friends = { 
-#     "Shane" : 10, 
-#     "Samantha" : 9, 
-#     "Shiloh" : 12, 
-#     "Sean" : 11 
-# }
+print(cute)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CHECKPOINT
+->
+friends = { 
+    "Shane" : 10, 
+    "Samantha" : 9, 
+    "Shiloh" : 12, 
+    "Sean" : 11 
+}
 
-# friends["sebastian"] = 8
+friends["sebastian"] = 8
 
-# print(friends)
+print(friends)
 
 
-# friends = {
-#   "Shane" : 10, 
-#     "Samantha" : 9, 
-#     "Shiloh" : 12, 
-#     "Sean" : 11 
-# }
+friends = {
+  "Shane" : 10, 
+    "Samantha" : 9, 
+    "Shiloh" : 12, 
+    "Sean" : 11 
+}
 
-# print(friends)
+print(friends)
 
-# friends.pop("Shiloh")
+friends.pop("Shiloh")
 
-# print(friends)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Dictionary of Shapes
-# ->
-# my_shape = input("What shape do you want to add?")
-# my_shape_height = int(input("How tall is your shape?"))
+print(friends)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dictionary of Shapes
+->
+my_shape = input("What shape do you want to add?")
+my_shape_height = int(input("How tall is your shape?"))
 
-# shapes = {
-#     "Triangle": 8,
-#     "Circle": 15,
-#     "Square": 10,
-# 	"Rectangle" : 12,
-# }
+shapes = {
+    "Triangle": 8,
+    "Circle": 15,
+    "Square": 10,
+	"Rectangle" : 12,
+}
 
-# shapes[my_shape] = my_shape_height
+shapes[my_shape] = my_shape_height
 
-# print(shapes)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(shapes)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 name = input("Which tree do you want to remove?")
