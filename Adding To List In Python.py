@@ -1,77 +1,77 @@
-# frogs = [ "Miranda", "Osmari", "Camila", "Yaneli"]
+frogs = [ "Miranda", "Osmari", "Camila", "Yaneli"]
 
-# frogs.append("Xuminghao")
+frogs.append("Xuminghao")
 
-# print(frogs)
-# ^
-# # APPEND
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(frogs)
+^
+# APPEND
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# frogs = [ "Miranda", "Osmari", "Camila", "Yaneli"]
+frogs = [ "Miranda", "Osmari", "Camila", "Yaneli"]
 
-# frogs.extend(["Xuminghao", " Jun", "Scoups", "Vernom", "say_the_name_Seventeen"])
+frogs.extend(["Xuminghao", " Jun", "Scoups", "Vernom", "say_the_name_Seventeen"])
 
-# print(frogs)
-# ^
+print(frogs)
+^
+# EXTEND
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+frogs = ["Food", "Beans", "Carrots", "Rice", "Eggs"]
+
+frogs.extend("Xuminghao")
+
+print(frogs)
+^
 # # EXTEND
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# frogs = ["Food", "Beans", "Carrots", "Rice", "Eggs"]
+frogs = ["Food", "Beans", "Carrots", "Rice", "Eggs"]
 
-# frogs.extend("Xuminghao")
+frogs.insert(3, "Xuminghao")
 
-# print(frogs)
-# ^
-# # # EXTEND
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(frogs)
+^
+# INSERT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# frogs = ["Food", "Beans", "Carrots", "Rice", "Eggs"]
+flowers = [ "rose", "tulip", "lilac", "sunflower"]
 
-# frogs.insert(3, "Xuminghao")
+flowers.append("Xuminghao")
 
-# print(frogs)
-# ^
-# # INSERT
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(flowers)
 
-# flowers = [ "rose", "tulip", "lilac", "sunflower"]
+flowers = [ "rose", "tulip", "lilac", "sunflower"]
 
-# flowers.append("Xuminghao")
+flowers.extend(["Xuminghao", " Jun", "Scoups", "Vernom", "say_the_name_Seventeen"])
 
-# print(flowers)
-
-# flowers = [ "rose", "tulip", "lilac", "sunflower"]
-
-# flowers.extend(["Xuminghao", " Jun", "Scoups", "Vernom", "say_the_name_Seventeen"])
-
-# print(flowers)
+print(flowers)
 
 
 
-# chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
+chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
 
-# chickens.extend(["Charlotte", "Crystal"])
+chickens.extend(["Charlotte", "Crystal"])
 
-# print(chickens)
+print(chickens)
 
 
 
-# chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
+chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
 
-# chickens.append("Daphne")
+chickens.append("Daphne")
 
-# print(chickens)
+print(chickens)
 
 
 
 
 
 
-# handkerchief = ["fish", "cake", "bannan", "butter", "pizza"]
+handkerchief = ["fish", "cake", "bannan", "butter", "pizza"]
 
-# handkerchief.extend("handkerchief")
+handkerchief.extend("handkerchief")
 
-# print(handkerchief)
+print(handkerchief)
 
 
 
@@ -83,111 +83,111 @@
 
 
 
-# frogs = [spelling = []
+frogs = [spelling = []
 
-# print()
+print()
 
-# frogs.extend("Xuminghao")
+frogs.extend("Xuminghao")
 
-# print(frogs) 
-
-
-
-# spelling = ["fish", "cake", "bannan", "butter", "pizza"]
-
-# word = input("What word do you want spelled out?")
-
-# spelling.("fish")
-# spelling.("?cake")
-# spelling.("bannan")
-
-# print(word)
+print(frogs) 
 
 
 
-# def create_word_list(word):
+spelling = ["fish", "cake", "bannan", "butter", "pizza"]
 
-#     result = []
+word = input("What word do you want spelled out?")
+
+spelling.("fish")
+spelling.("?cake")
+spelling.("bannan")
+
+print(word)
+
+
+
+def create_word_list(word):
+
+    result = []
     
    
-#     result.append(word)
+    result.append(word)
     
     
-#     result.extend(list(word))
+    result.extend(list(word))
     
 
-#     result.append(word)
+    result.append(word)
     
-#     return result
+    return result
 
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
     
-#     word = input("Enter a word: ")
+    word = input("Enter a word: ")
     
     
-#     word_list = create_word_list(word)
-#     print(word_list)
+    word_list = create_word_list(word)
+    print(word_list)
 
 
 
 
 
-# olympics = ["running", "gymnastics", "swimming", "volleyball", "basketball"]
+olympics = ["running", "gymnastics", "swimming", "volleyball", "basketball"]
 
-# new_olympics = ["karate", "surfing", "baseball", "skateboarding", "sport climbing"]
+new_olympics = ["karate", "surfing", "baseball", "skateboarding", "sport climbing"]
 
-# olympics.extend("pig") 
+olympics.extend("pig") 
 
-# print(olympics)
+print(olympics)
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# # OLYMIPC EVENTS (CHALLENGE)
-# ->
-# olympics = ["swim","run","high_jump", "archery","karate"]
+# OLYMIPC EVENTS (CHALLENGE)
+->
+olympics = ["swim","run","high_jump", "archery","karate"]
 
-# olympics.extend(["long_jump","vollball","picklball","tennis"])
+olympics.extend(["long_jump","vollball","picklball","tennis"])
 
-# print(olympics)
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print(olympics)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# # LAST MINUTE TREATS (CHALLENGE)
-# ->
-# first = input("What other item do you want?")
-# second = input("What final item do you want?")
+# LAST MINUTE TREATS (CHALLENGE)
+->
+first = input("What other item do you want?")
+second = input("What final item do you want?")
 
-# treats = ["popcorn", "popsicles", "soda", "chips", "cookies"]
+treats = ["popcorn", "popsicles", "soda", "chips", "cookies"]
 
-# treats.append(first)
-# treats.append(second)
+treats.append(first)
+treats.append(second)
 
-# print(treats)
-
-
-
-
-
-# chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
-
-# chickens.append("Daphne")
-
-# print(chickens)
+print(treats)
 
 
 
 
-# chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
 
-# chickens.insert(2, "Daphne")
+chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
 
-# print(chickens)
+chickens.append("Daphne")
 
-# chickens = ["Clucky","Fran", "Rhode"]
+print(chickens)
 
-# chickens.extend("Fran")
 
-# print(chickens)
+
+
+chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
+
+chickens.insert(2, "Daphne")
+
+print(chickens)
+
+chickens = ["Clucky","Fran", "Rhode"]
+
+chickens.extend("Fran")
+
+print(chickens)
 
 
 chickens = ["Clucky", "Barbara", "Nancy", "Fran", "Rhode"]
