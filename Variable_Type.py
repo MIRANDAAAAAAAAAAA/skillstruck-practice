@@ -112,12 +112,12 @@
 # integer = int(SVT)
 # print(integer + 18)
 
-# string1 = "SVT is "
-# string2 = "awesome "
-# string3 = "TXT"
-# string4 = string1 + string2 + string3
+string1 = "SVT is "
+string2 = "awesome "
+string3 = "TXT"
+string4 = string1 + string2 + string3
 
-# print(string4)  
+print(string4)  
 
 # string1 = "I like to eat"
 # string2 = "donuts."
@@ -133,13 +133,13 @@
 
 # print(string1 + string2)
 
-snickers = int(input("How many snickers you got"))
-nerds = int(input("How many nerds you got"))
-butterfingers = int(input("How many butterfingers you got"))
+# snickers = int(input("How many snickers you got"))
+# nerds = int(input("How many nerds you got"))
+# butterfingers = int(input("How many butterfingers you got"))
 
-total = snickers + nerds + butterfingers
+# total = snickers + nerds + butterfingers
 
 
-print("This year, you got " + str(snickers) + " snickers, " + str(nerds) + " nerds, and " + str(butterfingers) + " butterfingers. The total number of these candies is " + str(total) + " candies.")
+# print("This year, you got " + str(snickers) + " snickers, " + str(nerds) + " nerds, and " + str(butterfingers) + " butterfingers. The total number of these candies is " + str(total) + " candies.")
 
 
